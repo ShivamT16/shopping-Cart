@@ -9,6 +9,10 @@ Welcome to our shopping cart! Explore our extensive selection of headphones, ear
 <li> Each product card shows the product image, product name, product price and an 'Add to Cart' button to add the product to your cart.  
 
 <br>
+<> Product Detail Page -
+<li> Detailed product page for each product.
+
+<br>
 <> Cart Management -  
 <li> A dedicated cart page where users can manage their selected products.
 <li> Displays added products with Quantity selector and "Remove Item" button to delete any item from the cart.
@@ -25,6 +29,8 @@ Welcome to our shopping cart! Explore our extensive selection of headphones, ear
 
 ## Tech Used-
 
-JavaScript
+HTML, CSS  
+JavaScript, React    
+Redux, React Router  
+Tailwind CSS
 
-React JS
