@@ -5,7 +5,6 @@ import { Product } from "./Pages/Product";
 import { Cart } from "./Pages/Cart";
 import { Checkout } from "./Pages/Checkout";
 import { Navbar } from "./Navbar";
-import productData from "./Data/test.json"
 import { ProductDetail } from "./Pages/ProductDetails";
 
 export default function App() {
@@ -15,8 +14,8 @@ export default function App() {
       <Navbar />
 
       <Routes>
-        <Route path="/" element={<Product products={productData.data} />} />
-        <Route path="/productDetail/:id" element={<ProductDetail products={productData.data} />} />
+        <Route path="/" element={<Product />} />
+        <Route path="/productDetail/:id" element={<ProductDetail />} />
         <Route path="/cart" element={ <Cart /> } />
         <Route path="/checkout" element={<Checkout />} />
       </Routes>
